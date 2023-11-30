@@ -1,0 +1,31 @@
+h1{
+    color: fuchsia;
+}
+
+p{
+    background-color: aqua;
+}
+
+h2 ~ p{
+    background-color: crimson;
+}
+
+h2 + p{
+    background-color: fuchsia;
+}
+
+/* section > *{
+    /* border-right: 8px dashed green */
+
+    /*{*/*/
+        h2.one{
+            color: green;
+            font-size: 25px;
+        }
+        section .one{
+            font-size: 30px;
+            color:yellow;
+        }
+
+
+

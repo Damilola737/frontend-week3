@@ -1,0 +1,45 @@
+/* cascading and specificity */
+main > h1{
+    color: red;
+}
+
+body h1{
+    color: green;
+}
+
+/* class selector */
+h2.one{
+    color: green;
+    font-size: 25px;
+}
+
+section h2.one{
+    font-size: 50px;
+    color: yellow;
+}
+
+/* pseudoclass selector */
+ul, li{
+    margin-top: 30px;
+}
+
+ul>:first-child, ul>:last-child{
+    border: 10px double violet;
+}
+
+
+ul>:nth-child(even){
+    border: 10px ridge navy
+}
+
+ul>:nth-child(3n+3){
+    border: 10px dotted hotpink;
+}
+
+ul li{
+    border: 10px double green;
+}
+
+li:last-of-type{
+    background-color: khaki;
+}
